@@ -1,0 +1,24 @@
+.container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.row {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.cross-txt {
+    text-decoration: line-through;
+    color: #D5D8DC;
+}
+
+@media (max-width: 992px) {
+    .row .col-lg-4 {
+        margin-bottom: 30px;
+    }
+}
